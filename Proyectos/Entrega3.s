@@ -2,6 +2,24 @@
 #Entrega de práctica,Jueves 21 Septiembre
 #Ejercicio 3
 
+#Comprobar en la ventana de mensajes que la carga ha sido correcta.
+# Comprobar en la ventana del segmento de datos que todos los bytes que aparecen
+#en las palabras de memoria corresponden con las definiciones de datos que
+#aparecen en las directivas del código ensamblador.
+# Estudiar el contenido de la ventana de registros. Observar los registros que aparecen
+#y sus valores (ver el listado de los registros del MIPS y sus distintos valores en la
+#transparencia nº 9 del tutorial).
+# Estudiar el contenido de la ventana del segmento de texto.
+# Escribir el valor que deberá tomar cada registro tras ejecutarse cada línea de
+#código.
+# Ejecutar el programa cargado en SPIM.
+# Comprobar que los valores que van tomando los registros al ejecutarse las
+#operaciones descritas en las líneas de código son los esperados.
+# Estudiar cómo se cargan en registros las distintas posiciones de un array de datos en
+#memoria y qué operaciones aritméticas es necesario realizar (y por qué).
+# Estudiar las directivas e instrucciones que aparecen en el código (ver transparencia
+#nº 8 del tutorial).
+
         .data # *** SEGMENTO DE DATOS ***
 valor:  .word 5,10,15,20        # Defino array 4 palabras (decimal).
                                 # valor[2] es 15 = 0xf
