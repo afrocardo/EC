@@ -1,6 +1,6 @@
 #Ricardo Meza Díaz 
 #Entrega de práctica,Jueves 21 Septiembre
-#Ejercicio 3
+#Ejercicio 3,Arrays y constantes en memoria. Carga de memoria a registros.
 
 #Comprobar en la ventana de mensajes que la carga ha sido correcta.
 # Comprobar en la ventana del segmento de datos que todos los bytes que aparecen
