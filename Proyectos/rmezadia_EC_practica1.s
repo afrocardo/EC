@@ -1,12 +1,21 @@
-#Defensa MIPS,2 Noviembre 2017
+#Defensa MIPS,Jueves 2 Noviembre 2017
 #Ricardo José Meza Díaz
+
+#Realizar un programa que tenga el array con los valores 10,2,4,7,6,8,15.
+#Cada valor introdúcelo en un registro distinto y con 1 modo de direccionamiento distinto,de los 7 que hay; 
+#luego muestralos por consola.
+
 #segmento de datos#
+
 .data 
 dir:		.byte  10, 2, 4, 7, 6, 8, 15	
-ind:	.word 1		
+ind:	    .word 1		
+
 # *** segmento de texto ***
+
 .text			
 .globl main		# Etiqueta main visible a otros ficheros
+
 main:
 		
 	li $t1,0x00400000
