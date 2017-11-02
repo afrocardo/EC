@@ -1,4 +1,4 @@
-#Defensa MIPS, Noviembre 2017
+#Defensa MIPS,2 Noviembre 2017
 #Ricardo José Meza Díaz
 #segmento de datos#
 .data 
