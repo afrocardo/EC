@@ -10,4 +10,15 @@
 #enseñar al profesor el código desarrollado, con el objeto de identificar correctamente cada
 #modo de direccionamiento.
 
+#***Segmento de datos***#
+.data
+
+dato: .word 1 
+auxiliar: .word 2           #o índice
+array: .byte 1,2,3,4,5,6,7  #Los números que yo quiera.
+
+
+
+#***Segmento de texto***#
+
 
