@@ -1,0 +1,3 @@
+entity mux is
+	port(a: in bit,b: in bit;selec: in bit;salida out bit)
+end mux;
