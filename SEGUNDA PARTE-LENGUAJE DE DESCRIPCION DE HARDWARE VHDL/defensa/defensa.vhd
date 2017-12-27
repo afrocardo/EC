@@ -1,4 +1,6 @@
---When else
+--Autor: Ricardo Meza Díaz
+--Fecha: 21 Diciembre 2017
+--Defensa VHDL
 library ieee;
 use ieee.std_logic_1164.all;
 
