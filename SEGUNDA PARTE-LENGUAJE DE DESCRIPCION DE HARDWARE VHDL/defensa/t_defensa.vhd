@@ -1,3 +1,8 @@
+--Autor: Ricardo Meza Díaz
+--Fecha: 21 Diciembre 2017
+--Defensa VHDL
+
+--Banco de pruebas
 library ieee;
 use ieee.std_logic_1164.all;
 
