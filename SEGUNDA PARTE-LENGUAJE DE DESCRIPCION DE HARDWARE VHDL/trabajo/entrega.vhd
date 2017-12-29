@@ -15,7 +15,7 @@ end ENTITY;
 --When..else
 architecture flujo1 of entrega is
 begin           
-				--Deszplazamiento a la derecha de 1 bit.
+				--Deszplazamiento a la izquierda de 1 bit.
 	salida <=	entrada(1 to 7) & '0' when control = B"001" else 
 				--Desplazamiento a la derecha de 1 bit.
 				'0' & entrada(0 to 6) when control = B"010" else 
