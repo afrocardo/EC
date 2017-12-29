@@ -47,6 +47,7 @@ begin
 				entrada(6)&entrada(7)&entrada(0 to 5) when B"110",
 				--Rotacion de dos bits a la derecha.
 				entrada(2 to 7)&entrada(0)&entrada(1) when B"111",
+				--Otros valores: No debe realizar ninguna operación.
 				entrada(0 to 7) when others;	
 end flujo2;
 
