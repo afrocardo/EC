@@ -9,11 +9,11 @@ entity alu is
         salida : out integer);
 end entity alu;
 
-architecture alu_arch of alu is
+architecture flujo of alu is
 begin
 
   salida <= a + b when operacion = '1' else abs (a - b);
-end architecture alu_arch;
+end architecture flujo;
 
 
 
