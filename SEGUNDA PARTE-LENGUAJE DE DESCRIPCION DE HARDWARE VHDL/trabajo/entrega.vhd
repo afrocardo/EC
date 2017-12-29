@@ -1,4 +1,5 @@
---When else
+--Autor: Ricardo Meza DÃ­az
+
 library ieee;
 use ieee.std_logic_1164.all;
 
@@ -18,7 +19,7 @@ begin
 	salida <=	entrada(1 to 7) & '0' when control = B"001" else 
 				--Desplazamiento a la derecha de 1 bit.
 				'0' & entrada(0 to 6) when control = B"010" else 
-				--Rotación a la izquierda de 1 bit.
+				--RotaciÃ³n a la izquierda de 1 bit.
 		   		entrada(7)& entrada(0 to 6) when control = B"100" else 
 		   		--Rotacion a la derecha de 1 bit.
 				entrada(1 to 7)&entrada(0) when control = B"101" else 
@@ -37,7 +38,7 @@ begin
 			salida<= entrada(1 to 7)& '0' when B"001", 
 				--Desplazamiento a la derecha de 1 bit.
 				'0' & entrada(0 to 6) when B"010", 
-				--Rotación a la izquierda de 1 bit.
+				--RotaciÃ³n a la izquierda de 1 bit.
 		   		entrada(7)& entrada(0 to 6) when B"100", 
 				--Rotacion a la derecha de 1 bit.
 				entrada(1 to 7)&entrada(0) when  B"101",
